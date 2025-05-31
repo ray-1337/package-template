@@ -1,0 +1,31 @@
+{
+  "name": "package-template",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "ray",
+    "url": "https://13373333.one"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ray-1337"
+    }
+  ],
+  "maintainers": [{
+    "name": "ray",
+    "url": "https://13373333.one"
+  }],
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0"
+}

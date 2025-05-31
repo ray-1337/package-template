@@ -22,10 +22,15 @@
       "url": "https://github.com/sponsors/ray-1337"
     }
   ],
-  "maintainers": [{
-    "name": "ray",
-    "url": "https://13373333.one"
-  }],
+  "maintainers": [
+    {
+      "name": "ray",
+      "url": "https://13373333.one"
+    }
+  ],
   "license": "MIT",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }

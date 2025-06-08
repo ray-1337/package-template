@@ -32,6 +32,8 @@
   "license": "MIT",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
+    "@swc/cli": "^0.7.7",
+    "@swc/core": "^1.11.31",
     "rimraf": "^6.0.1",
     "tsc-alias": "^1.8.16",
     "typescript": "^5.8.3"

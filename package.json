@@ -7,7 +7,9 @@
   },
   "scripts": {
     "prepublishOnly": "pnpm run build",
-    "build": "rimraf dist && tsc && tsc-alias"
+    "build": "pnpm run build:js && pnpm run build:types",
+    "build:js": "rimraf dist && swc src -d dist --ignore \"src/types/**/*\" --strip-leading-paths",
+    "build:types": "tsc --emitDeclarationOnly"
   },
   "keywords": [],
   "author": {
